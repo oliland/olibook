@@ -1,0 +1,10 @@
+<!-- blogpost entry -->
+<div class="pic_thumb"><img src="{{ object.author.profilepicture.original_image.thumbnail }}" width="50" height="50" /></div>
+<div class="stream-item-content">
+<h6><a href="#" class="bold">{{ object.author.get_full_name }}</a> posted <a href="#">{{ object.title }}</a></h6>
+<ul class="stream-item-meta">
+<li>about {{ object.created|timesince }} ago
+<li><a href="#">Comment</a></li>
+<li><a href="#">Like</a></li>
+</ul>
+</div>

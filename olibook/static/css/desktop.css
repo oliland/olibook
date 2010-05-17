@@ -1,0 +1,35 @@
+img { /* WHAT THE FUCK ARE YOU DOING */ border: 0; }
+
+body { margin: 0; padding: 0; font-family: "lucida grande",tahoma,verdana,arial,sans-serif; }
+
+/* colour */
+a:link, a:visited { color: #cf0fb6; text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* utils */
+.clear { clear: both; }
+.bold { font-weight: bold; }
+
+#logo { display: block; width: 118px; height: 31px; position: relative; left: -6px; }
+#topnav-container a:hover {  background: #df1fe6; }
+#topnav-container { background: #cf0fb6; width: 100%; height: 45px; }
+#topnav { padding-top: 14px; }
+.page { width: 1000px; margin: 0 auto; }
+
+/* type */
+h1, h2, h3, h4, h5, h6, p { margin: 0; padding: 0; font-weight: normal; }
+h2 { padding: 20px 0; font-size: 16px; font-weight: bold; }
+h6 { color: #808080; font-size: 14px; line-height: 16px; }
+p { font-size: 12px; }
+ul { list-style: none; margin: 0; padding: 0; }
+
+/* stream app */
+#apps { float: left; width: 180px; }
+#stream-container { width: 545px; margin-left: 180px; border-left: solid 1px #b3b3b3; }
+#stream { padding: 20px; }
+.stream-item-content { margin-left: 60px; }
+.stream-item-meta { list-style: square outside; font-size: 11px; color: #808080; padding: 5px 0; }
+.stream-item-meta > li { display: inline; }
+
+/* profiles */
+.pic_thumb { width: 50px; height: 50px; float: left; }

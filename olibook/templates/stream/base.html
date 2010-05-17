@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div id="apps">
+<p>Oli Kingshott - Lad on Tour</p>
+</div>
+<div id="stream-container">
+    <div id="stream">
+    <h2>Flightline</h2>
+    <p>What's on your mind? Wait - scratch that; I don't care.</p>
+
+    <ul id="stream-items">
+    {% for item in stream %}
+        <li>
+            {{ item.get_rendered_html }}
+        </li>
+    {% endfor %}
+    </ul>
+
+    </div>
+
+    <div id="meta">
+
+    </div>
+</div>
+{% endblock content %}
