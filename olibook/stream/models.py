@@ -19,7 +19,7 @@ class StreamItem(models.Model):
     content_type = models.ForeignKey(ContentType)
     object_id = models.PositiveIntegerField()
     created = models.DateTimeField()
-    publisher = models.ForeignKeyField(User)
+    publisher = models.ForeignKey(User)
 
     content_object = generic.GenericForeignKey('content_type', 'object_id')
 
